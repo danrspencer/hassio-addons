@@ -1,6 +1,6 @@
 {
     "name": "Logstash",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "slug": "logstash",
     "description": "Stash all the logs",
     "url": "https://github.com/danrspencer/hassio-addons/",
