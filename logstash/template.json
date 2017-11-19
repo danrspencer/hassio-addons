@@ -1,3 +1,0 @@
-{{#devices}}
-{"client-type":"{{client_type}}","auth-type":"{{auth_type}}","user-credential":"{{credentials}}"}
-{{/devices}}
