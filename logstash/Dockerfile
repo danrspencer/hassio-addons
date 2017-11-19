@@ -8,7 +8,7 @@ RUN apk --update add openjdk8-jre \
 
 RUN curl https://artifacts.elastic.co/downloads/logstash/logstash-6.0.0.tar.gz \
         --output /tmp/logstash-6.0.0.tar.gz
-RUN tar xvzf ./logstash-6.0.0.tar.gz -C /usr/bin/
+RUN tar xvzf /tmp/logstash-6.0.0.tar.gz -C /usr/bin/
 RUN rf /tmp/logstash-6.0.0.tar.gz
 
 
