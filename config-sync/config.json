@@ -1,8 +1,8 @@
 {
-    "name": "Logstash",
+    "name": "Config Sync",
     "version": "0.0.4",
-    "slug": "logstash",
-    "description": "Stash all the logs",
+    "slug": "config-sync",
+    "description": "Sync Hassio Config",
     "url": "https://github.com/danrspencer/hassio-addons/",
     "startup": "services",
     "boot": "auto",
