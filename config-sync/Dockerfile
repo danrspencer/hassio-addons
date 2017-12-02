@@ -3,6 +3,9 @@ FROM ${BUILD_FROM}
 
 ENV LANG C.UTF-8
 
-RUN apk --update add curl
+RUN apk --update add python3
+RUN pip install request
 
-CMD [ "/usr/bin/run.sh" ]
+COPY ./src /usr/bin
+
+CMD [ "/usr/bin/backupconfig.py" ]

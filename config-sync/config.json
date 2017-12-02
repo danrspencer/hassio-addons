@@ -1,12 +1,15 @@
 {
     "name": "Config Sync",
-    "version": "0.0.4",
+    "version": "0.0.5",
     "slug": "config-sync",
     "description": "Sync Hassio Config",
     "url": "https://github.com/danrspencer/hassio-addons/",
     "startup": "services",
     "boot": "auto",
-    "host_network": "True",
+    "hassio_api": true,
+    "map": [
+        "config:rw"
+    ],
     "options": {
     },
     "schema": {
