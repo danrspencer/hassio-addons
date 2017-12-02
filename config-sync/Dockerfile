@@ -6,6 +6,7 @@ ENV LANG C.UTF-8
 RUN apk --update add python3
 # RUN pip install request
 
-COPY ./src /usr/bin
+RUN mkdir /opt
+COPY ./src /opt
 
-CMD [ "/usr/bin/backupconfig.py" ]
+CMD [ "/opt/backupconfig.py" ]

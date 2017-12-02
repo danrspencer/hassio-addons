@@ -1,11 +1,13 @@
 #!/usr/bin/env python3
 
-import requests
+while True:
+  print("hello world")
 
-import json
-import yaml
+# import requests
 
-response = requests.get('https://api.spotify.com/v1/search?type=artist&q=snoop')
+# import json
+# import yaml
 
-print(yaml.dumps(response.json()))
+# response = requests.get('https://api.spotify.com/v1/search?type=artist&q=snoop')
 
+# print(yaml.dumps(response.json()))
